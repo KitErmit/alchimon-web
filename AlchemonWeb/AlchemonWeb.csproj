@@ -13,9 +13,18 @@
   <ItemGroup>
     <None Remove="Views\Replicas\" />
     <None Remove="Services\" />
+    <None Remove="Services\Loaders\" />
+    <None Remove="AlPedia\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Replicas\" />
     <Folder Include="Services\" />
+    <Folder Include="Services\Loaders\" />
+    <Folder Include="AlPedia\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Program.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 </Project>

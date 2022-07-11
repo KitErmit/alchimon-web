@@ -30,3 +30,4 @@
 /Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/obj/Debug/net6.0/AlchemonWeb.pdb
 /Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/obj/Debug/net6.0/AlchemonWeb.genruntimeconfig.cache
 /Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/obj/Debug/net6.0/ref/AlchemonWeb.dll
+/Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/bin/Debug/net6.0/Program.cs
