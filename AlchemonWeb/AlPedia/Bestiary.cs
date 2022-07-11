@@ -4,17 +4,16 @@ namespace AlchemonWeb.AlPedia
 {
 	public static class Bestiary
 	{
-		public static List<Alchemon> all;
+		public static readonly HashSet<Alchemon> all = new();
 
 		public static string Update(Alchemon downloadable)
         {
-			if (all.Any(a => a.AlName == downloadable.AlName))
+			if (!all.Add(downloadable))
 			{
-				all.Add(downloadable);
-				return $"{downloadable.AlName} загружен";
+				return $"{downloadable.AlName} уже есть";
 			}
-			else return $"{downloadable.AlName} уже есть";
-				
+
+			return $"{downloadable.AlName} загружен";
         }
 		
 	}
