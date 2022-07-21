@@ -1,0 +1,1 @@
+{"f2036dea-f42b-442d-8169-73c6ae7602cc":{"Id":"f2036dea-f42b-442d-8169-73c6ae7602cc","Nik":"Kit","Password":"qwer","role":"god","Money":1000000,"Karman":[]}}

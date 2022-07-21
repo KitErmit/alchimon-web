@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 using AlchemonWeb.Services;
+using AlchemonWeb.Models;
 namespace AlchemonWeb.Controllers
 {
     [ApiController]
@@ -17,10 +18,28 @@ namespace AlchemonWeb.Controllers
             _shopService = shopService;
 		}
 
+        [HttpGet("NewAl")]
+        public Alchemon BuyNew()
+        {
+            return _shopService.BuyAnimal();
+        }
+
         [HttpGet("Test")]
-        public string Test()
+        public HashSet<Alchemon> Test()
         {
             return _shopService.Test();
+        }
+
+        [HttpGet("Karman")]
+        public string GetKarman()
+        {
+            return _shopService.GetKarman();
+        }
+
+        [HttpPut("Hibrid")]
+        public string GetHibrid(int leftAlNum, int rightAlNum)
+        {
+            return _shopService.GetHibrit(leftAlNum, rightAlNum);
         }
     }
 }

@@ -1,10 +1,13 @@
 ﻿using System;
 using AlchemonWeb.Models;
+using AlchemonWeb.Services;
+using AlchemonWeb.Services.Loaders;
+
 namespace AlchemonWeb.AlPedia
 {
 	public static class Bestiary
 	{
-		public static readonly HashSet<Alchemon> all = new();
+		private static readonly HashSet<Alchemon> all = new();
 
 		public static string Update(Alchemon downloadable)
         {
@@ -15,7 +18,18 @@ namespace AlchemonWeb.AlPedia
 
 			return $"{downloadable.AlName} загружен";
         }
-		
+
+		public static HashSet<Alchemon> GetAlpedia()
+        {
+			if(all.Count <1)
+            {
+				AbsoluteLoader loader = AbsoluteLoader.getInstance();
+				loader.PutInQueue(LoadConstans.Launch);
+				loader.Load();
+            }
+			return all;
+        }
+
 	}
 }
 

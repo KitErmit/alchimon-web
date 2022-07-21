@@ -1,27 +1,36 @@
 ﻿<Properties StartupConfiguration="{2487F4F6-0229-428D-B6EB-FF001E4C8162}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AlchemonWeb PreferredExecutionTarget="/Applications/Opera GX.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="AlchemonWeb/Controllers/WeatherForecastController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlchemonWeb/Services/UserService.cs">
     <Files>
-      <File FileName="AlchemonWeb/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="AlchemonWeb/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="AlchemonWeb/AlPedia/Bestiary.cs" Line="10" Column="10" />
+      <File FileName="AlchemonWeb/Services/Loaders/AbsoluteLoader.cs" Line="6" Column="33" />
+      <File FileName="AlchemonWeb/Services/ShopService.cs" Line="58" Column="31" />
+      <File FileName="AlchemonWeb/Models/Alchemon.cs" Line="42" Column="10" />
+      <File FileName="AlchemonWeb/Controllers/ShopController.cs" Line="12" Column="58" />
+      <File FileName="AlchemonWeb/Services/Loaders/AlchemonLoader.cs" Line="11" Column="33" />
+      <File FileName="AlchemonWeb/AlPedia/AnimanlFactory.cs" Line="13" Column="45" />
+      <File FileName="AlchemonWeb/AlPedia/AlList.txt" Line="1" Column="1" />
+      <File FileName="AlchemonWeb/Program.cs" Line="49" Column="4" />
+      <File FileName="AlchemonWeb/AlPedia/HibridFactory.cs" Line="23" Column="27" />
+      <File FileName="AlchemonWeb/Controllers/UserController.cs" Line="32" Column="1" />
+      <File FileName="AlchemonWeb/Models/Player.cs" Line="9" Column="42" />
+      <File FileName="AlchemonWeb/Services/RosterUsersService.cs" Line="49" Column="26" />
+      <File FileName="AlchemonWeb/Services/Loaders/ILoader.cs" Line="1" Column="1" />
+      <File FileName="AlchemonWeb/appsettings.json" Line="1" Column="1" />
+      <File FileName="AlchemonWeb/Base/UserRoster.txt" Line="1" Column="72" />
+      <File FileName="AlchemonWeb/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="AlchemonWeb/Services/UserService.cs" Line="24" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AlchemonWeb" expanded="True">
             <Node name="AlchemonWeb" expanded="True">
-              <Node name="Controllers" expanded="True" selected="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="Base" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -31,4 +40,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AlchemonWeb PreferredExecutionTarget="/Applications/Opera GX.app" />
 </Properties>

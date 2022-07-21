@@ -7,13 +7,13 @@ namespace AlchemonWeb.Models
         public string AlName { get; set; }
         public string Emoji { get; set; }
         //public Spacial spacial { get; set; }
-        public int _hp { get; set; }
-        public int _dmg { get; set; }
-        public int _agi { get; set; }
+        public int Hp { get; set; }
+        public int Dmg { get; set; }
+        public int Agi { get; set; }
 
-        public int _tear { get; set; }
-        public int _maxpoint { get; set; }
-        public string _noise { get; set; }
+        public int Tear { get; set; }
+        public int Maxpoint { get; set; }
+        public string Noise { get; set; }
 
 
 
@@ -21,13 +21,13 @@ namespace AlchemonWeb.Models
         {
             AlName = alName;
             this.Emoji = Emoji;
-            _hp = hp;
-            _dmg = dmg;
-            _agi = agi;
-            _tear = 1;
+            Hp = hp;
+            Dmg = dmg;
+            Agi = agi;
+            Tear = 1;
             Name = "None";
-            _noise = noise;
-            _maxpoint = 70;
+            Noise = noise;
+            Maxpoint = 70;
         }
 
 
@@ -38,7 +38,7 @@ namespace AlchemonWeb.Models
 
         public override string ToString()
         {
-            return base.ToString() + $": ";
+            return  $"{AlName} {Emoji}";
         }
     }
 }

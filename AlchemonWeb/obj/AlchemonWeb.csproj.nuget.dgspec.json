@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galkl\\activity\\tmp\\alchimon-web\\AlchemonWeb\\AlchemonWeb.csproj": {}
+    "/Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/AlchemonWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galkl\\activity\\tmp\\alchimon-web\\AlchemonWeb\\AlchemonWeb.csproj": {
+    "/Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/AlchemonWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galkl\\activity\\tmp\\alchimon-web\\AlchemonWeb\\AlchemonWeb.csproj",
+        "projectUniqueName": "/Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/AlchemonWeb.csproj",
         "projectName": "AlchemonWeb",
-        "projectPath": "C:\\Users\\galkl\\activity\\tmp\\alchimon-web\\AlchemonWeb\\AlchemonWeb.csproj",
-        "packagesPath": "C:\\Users\\galkl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galkl\\activity\\tmp\\alchimon-web\\AlchemonWeb\\obj\\",
+        "projectPath": "/Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/AlchemonWeb.csproj",
+        "packagesPath": "/Users/kitaermit/.nuget/packages/",
+        "outputPath": "/Users/kitaermit/Projects/AlchemonWeb/AlchemonWeb/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\galkl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
+          "/Users/kitaermit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R2 2020\\ToolboxNugetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -68,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,14 +8,14 @@ namespace AlchemonWeb.Services.Loaders
 	public class AlchemonLoader : ILoader
 	{
 		private const string path = "./AlPedia/AlList.txt";
-		private static AlchemonLoader instance;
+		private static AlchemonLoader? _instance;
         private AlchemonLoader()
 		{
 		}
 		public static AlchemonLoader getInstance()
         {
-			if (instance is null) instance = new AlchemonLoader();
-			return instance;
+			if (_instance is null) _instance = new AlchemonLoader();
+			return _instance;
         }
 
 		public List<string> Load()
